@@ -1,0 +1,23 @@
+{
+  "name": "li-ui-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  },
+  "dependencies": {
+    "core-js": "^2.6.11",
+    "element-ui": "^2.13.1",
+    "highlight.js": "^10.0.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
